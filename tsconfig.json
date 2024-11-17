@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "target": "ES2020",
+      "outDir": "lib",
+      "declaration": true,
+      "declarationMap": true,
+      "removeComments": true,
+      "strict": true,
+      "alwaysStrict": true,
+      "noFallthroughCasesInSwitch": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "./src/**/*"
+    ]
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "name": "typed-catch-js",
+  "version": "1.0.0",
+  "description": "Advanced error handling",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tsc && node lib/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroVydysh/typed-catch-js.git"
+  },
+  "keywords": [
+    "error-handler",
+    "error",
+    "catch"
+  ],
+  "author": "Dmytro Vydysh",
+  "license": "SEE LICENSE IN \"LICENSE\"",
+  "bugs": {
+    "url": "https://github.com/DmytroVydysh/typed-catch-js/issues"
+  },
+  "homepage": "https://github.com/DmytroVydysh/typed-catch-js#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
