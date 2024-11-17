@@ -46,15 +46,10 @@ try {
   throw new TypeError('This is a type error');
 } catch (e) {
   (e as Error)
-    .is('TypeError', (err) => {
-      console.error('Handled TypeError:', err.message);
-    })
-    .is(SyntaxError, (err) => {
-      console.error('Handled SyntaxError:', err.message);
-    })
-    .any((err) => {
-      console.error('Unhandled error:', err.message);
-    });
+    .is(RangeError, (e) => { console.log('It is a RangeError') })
+    .is('TypeError', (e) => { console.log('It is a TypeError') })
+    .is(URIError, (e) => { console.log('It is a URIError') })
+    .is(/Syntax/i, (e) => { console.log('It is an error containing the word Syntax') });
 }
 ```
 
